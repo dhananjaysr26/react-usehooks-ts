@@ -1,6 +1,6 @@
 {
   "name": "react-usehooks-ts",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A collections of typescript supported react Custom hooks",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -31,5 +31,7 @@
     "react-dom": "^18.2.0",
     "typescript": "^5.2.2"
   },
-  "files": ["lib/**/*"]
+  "files": [
+    "lib/**/*"
+  ]
 }
