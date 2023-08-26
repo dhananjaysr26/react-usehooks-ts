@@ -11,9 +11,9 @@
 Getting started with **React useHooks ts** is as easy as 1-2-3! Simply run the following command:
 ```bash
 npm install react-usehooks-ts
+```
 
 And just like that, you're ready to harness the power of Your Project Name in your applications! 🚀
-```
 
 ## Usage
 ```bash
