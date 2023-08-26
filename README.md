@@ -43,3 +43,31 @@ const ExampleComponent: React.FC = () => {
 };
 
 ```
+
+```bash
+
+import React from 'react';
+import { useAutoReadOtp } from 'react-usehooks-ts';
+
+const App = () => {
+  const [isIncognito, isDetectingIncognito] = useDetectIncognito();
+
+  return (
+    <div>
+      <h1>Incognito Mode Detection</h1>
+      {isDetectingIncognito ? (
+        <p>Detecting incognito mode...</p>
+      ) : (
+        <>
+          <p>Is user in incognito mode: {isIncognito ? 'Yes' : 'No'}</p>
+          <p>Incognito detection complete!</p>
+        </>
+      )}
+    </div>
+  );
+};
+
+export default App;
+
+
+```
