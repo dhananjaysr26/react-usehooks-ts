@@ -47,7 +47,7 @@ const ExampleComponent: React.FC = () => {
 ```bash
 
 import React from 'react';
-import { useAutoReadOtp } from 'react-usehooks-ts';
+import { useDetectIncognito } from 'react-usehooks-ts';
 
 const App = () => {
   const [isIncognito, isDetectingIncognito] = useDetectIncognito();
