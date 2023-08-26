@@ -1,5 +1,5 @@
 # react-usehooks-ts
- A collections of typescript supported React Hooks
+ A collections of typescript supported React Custom Hooks
 
 ## Table of Contents
 
