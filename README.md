@@ -1,7 +1,7 @@
 # react-usehooks-ts
  A collections of typescript supported React Custom Hooks
 
-`[![NPM](...)](https://www.npmjs.com/package/react-usehooks-ts)`
+[![NPM](https://img.shields.io/npm/v/react-usehooks-ts.svg)](https://www.npmjs.com/package/react-usehooks-ts)
 
 
 ## Table of Contents
