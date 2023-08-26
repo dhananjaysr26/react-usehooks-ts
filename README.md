@@ -1,6 +1,9 @@
 # react-usehooks-ts
  A collections of typescript supported React Custom Hooks
 
+`[![NPM](...)](https://www.npmjs.com/package/react-usehooks-ts)`
+
+
 ## Table of Contents
 
 - [Installation](#installation)
