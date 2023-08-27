@@ -5,7 +5,7 @@ interface Props {
   timeoutInMin?: number;
 }
 
-const useAutoReadOtp = ({
+export const useAutoReadOtp = ({
   startOtpDetection = false,
   timeoutInMin = 5,
 }: Props): [string | null, boolean, string] => {
@@ -77,5 +77,3 @@ const useAutoReadOtp = ({
 
   return [detectedOTP, isOtpDetecting, otpDetectError];
 };
-
-export default useAutoReadOtp;
