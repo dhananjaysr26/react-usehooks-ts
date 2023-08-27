@@ -1,8 +1,8 @@
 # react-usehooks-ts
- A collections of typescript supported React Custom Hooks
+
+A collections of typescript supported React Custom Hooks
 
 [![NPM](https://img.shields.io/npm/v/react-usehooks-ts.svg)](https://www.npmjs.com/package/react-usehooks-ts)
-
 
 ## Table of Contents
 
@@ -12,6 +12,7 @@
 ## Installation
 
 Getting started with **React useHooks ts** is as easy as 1-2-3! Simply run the following command:
+
 ```bash
 npm install react-usehooks-ts
 ```
@@ -19,6 +20,9 @@ npm install react-usehooks-ts
 And just like that, you're ready to harness the power of **React useHooks ts** in your applications! 🚀
 
 ## Usage
+## `useAutoReadOtp`
+Automatically detect and read OTPs in your React components.
+
 ```bash
 import { useAutoReadOtp } from 'react-usehooks-ts';
 
@@ -44,8 +48,10 @@ const ExampleComponent: React.FC = () => {
 
 ```
 
-```bash
+## `useDetectIncognito`
+Detect whether the user's browser is in incognito mode.
 
+```bash
 import React from 'react';
 import { useDetectIncognito } from 'react-usehooks-ts';
 
@@ -69,5 +75,35 @@ const App = () => {
 
 export default App;
 
+```
+## `useDebounce`
+Debounce user input to enhance search functionality.
+
+```bash
+import React, { useState } from 'react';
+import { useDebounce } from 'react-usehooks-ts';
+
+const App = () => {
+  const [inputValue, setInputValue] = useState('');
+  const debouncedValue = useDebounce(inputValue);
+
+  const handleInputChange = (event) => {
+    setInputValue(event.target.value);
+  };
+
+  return (
+    <div>
+      <input
+        type="text"
+        placeholder="Search..."
+        value={inputValue}
+        onChange={handleInputChange}
+      />
+      {debouncedValue && <p>Debounced Value: {debouncedValue}</p>}
+    </div>
+  );
+};
+
+export default App;
 
 ```

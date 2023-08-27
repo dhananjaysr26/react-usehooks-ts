@@ -1,0 +1,1 @@
+export const detectIncognitoScriptLink ="https://cdn.jsdelivr.net/gh/Joe12387/detectIncognito@v1.3.0/dist/es5/detectIncognito.min.js"
