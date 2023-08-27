@@ -21,7 +21,7 @@ And just like that, you're ready to harness the power of **React useHooks ts** i
 
 ## Usage
 ## `useAutoReadOtp`
-Automatically detect and read OTPs in your React components.
+>Automatically detect and read OTPs in your React components.
 
 ```bash
 import { useAutoReadOtp } from 'react-usehooks-ts';
@@ -49,7 +49,7 @@ const ExampleComponent: React.FC = () => {
 ```
 
 ## `useDetectIncognito`
-Detect whether the user's browser is in incognito mode.
+>Detect whether the user's browser is in incognito mode.
 
 ```bash
 import React from 'react';
@@ -77,7 +77,7 @@ export default App;
 
 ```
 ## `useDebounce`
-Debounce user input to enhance search functionality.
+>Debounce user input to enhance search functionality.
 
 ```bash
 import React, { useState } from 'react';
