@@ -20,7 +20,7 @@ npm install react-usehooks-ts
 And just like that, you're ready to harness the power of **React useHooks ts** in your applications! 🚀
 
 ## Usage
-## `useAutoReadOtp`
+**`useAutoReadOtp`**
 >Automatically detect and read OTPs in your React components.
 
 ```bash
@@ -48,7 +48,7 @@ const ExampleComponent: React.FC = () => {
 
 ```
 
-## `useDetectIncognito`
+**`useDetectIncognito`**
 >Detect whether the user's browser is in incognito mode.
 
 ```bash
@@ -76,7 +76,7 @@ const App = () => {
 export default App;
 
 ```
-## `useDebounce`
+**`useDebounce`**
 >Debounce user input to enhance search functionality.
 
 ```bash
